@@ -1,0 +1,17 @@
+<div class="center-card">
+    <div class="card center" *ngIf="shownDetails"  style="width: 18rem;">
+      <div class="card-body">
+        <h5 class="card-title">
+          {{ uniTitle }}
+        </h5>
+        <h6 class="card-subtitle mb-2 text-muted">
+          {{ countrySubtitle}}
+        </h6>
+        
+        <a [href]="href" target="_blank" class="card-link">
+          {{ domainLink }}
+        </a>
+        
+      </div>
+    </div>
+  </div>

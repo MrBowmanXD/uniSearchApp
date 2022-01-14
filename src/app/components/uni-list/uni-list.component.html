@@ -1,0 +1,12 @@
+<div class="uni-list" *ngIf="uniListShown">
+    <div class="card" *ngFor="let uni of UniList">
+      <div class="card-body">
+        <h5 class="card-title">
+          {{ uni }}
+        </h5>
+        
+        <a href="#" (click)="methodsShowDetails(uni)" class="btn btn-primary">Details</a>
+      </div>
+    </div>
+    
+  </div>

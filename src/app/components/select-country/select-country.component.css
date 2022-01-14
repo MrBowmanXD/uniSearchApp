@@ -1,0 +1,54 @@
+.show-list {
+    display: inline;
+    margin-top: 38px;
+}
+
+.dropdown-menu {
+    max-height: 100px;
+    overflow-y: scroll;
+}
+
+.uni-list {
+    max-height: 380px;
+    overflow-y: scroll;
+}
+
+.margin-top {
+    margin-top: 5px;
+}
+
+.margin-bottom {
+    margin-bottom: 110px;
+}
+
+.margin-top-cards {
+    margin-top: 200px;
+}
+
+.uni-detalhes {
+    margin-top: 50px;
+    margin-left: 400px;
+    margin-right: 400px;
+}
+
+.card-body-detalhes {
+    background-color: black;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.card-title-detalhes {
+    color: white;
+}
+
+.card-text-detalhes {
+    color: white;
+}
+
+.center {
+    text-align: center;
+}
+
+.right {
+    text-align: right;
+}

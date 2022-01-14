@@ -1,0 +1,16 @@
+<div class="margin-top center margin-bottom dropdown">
+    <div class="btn-group" role="group" aria-label="Button group with nested dropdown">
+        <div class="btn-group right" role="group">
+          <button (mouseover)="showCountryList()" (click)="showCountryList()" id="btnGroupDrop1" type="button" class="btn btn-primary dropdown-toggle" aria-expanded="false">
+            Choose Country
+          </button>
+          <ul  class="dropdown-menu" [ngClass]="{'show-list': countryListShown}" aria-labelledby="btnGroupDrop1">
+            <div class="country-list-wrapper">
+              <li><a  class="dropdown-item" *ngFor="let country of countries" (click)="sendToParent(country)" href="#">
+                {{ country }}
+              </a></li>
+            </div>
+          </ul>
+        </div>
+      </div>
+    </div>
